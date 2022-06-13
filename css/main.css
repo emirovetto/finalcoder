@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  background-image: url(https://cooptelsangenaro.com.ar/emi/bg2.png);
+  background-repeat: repeat; }
+
+#numeros-local {
+  margin: 0;
+  padding: 0; }
+  #numeros-local div {
+    padding: 0 20px 0 0;
+    text-align: left;
+    height: 48px; }
+    #numeros-local div:not(:last-child) {
+      border-right: 2px solid #3f3f3f; }
+    #numeros-local div:not(:first-child) {
+      padding-left: 20px; }
+  #numeros-local p {
+    margin: 0; }
+
+#bg-contactos {
+  position: relative;
+  top: -130px; }
+
+#seccion-contacto {
+  min-height: 500px;
+  position: relative; }
+
+.mapa {
+  padding: 10px; }
+
+#titulo-formulario {
+  color: #080808; }
+
+.cont {
+  text-align: center; }
+
+.accordion {
+  max-width: 75%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #0e058738; }
+  .accordion strong {
+    font-size: 1rem;
+    font-weight: bold; }
+
+.youtube {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; }
+
+.card {
+  max-width: 75%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #afafaf; }
+
+.btn {
+  background-color: #000000;
+  color: #ffffff; }
+
+.btn:hover {
+  background-color: #e30fab; }
+
+#img-equipo {
+  max-height: 30rem;
+  width: 50%; }
+
+h1 {
+  text-align: center;
+  color: white; }
+
+h2 {
+  color: #0e0587; }
+
+h3 {
+  color: #ffffff; }
+
+footer {
+  background: #1b2a4e;
+  min-height: 100px; }
+  footer p {
+    color: #f3f3f3;
+    text-align: center; }
+
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: #f3f3f3; }
+
+#local {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 300px; }
+
+#menu a, button {
+  font-size: 18px;
+  font-weight: 600; }
+
+#menu a {
+  color: #ffffff; }
+
+header {
+  background-color: #1b2a4e; }
+
+.carousel-inner {
+  max-height: 39rem; }
+
+@media (max-width: 1200px) {
+  #intro, #equipo {
+    width: 90%;
+    margin: auto; }
+  #local {
+    flex-wrap: wrap;
+    padding-top: 30px; }
+  .wrapper-local {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px; } }
+
+@media (max-width: 768px) {
+  #intro, #equipo {
+    width: 90%;
+    margin: auto; }
+  #img-equipo {
+    max-height: 20rem;
+    width: 90%; }
+  .wrapper-local {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px; }
+  #local {
+    flex-wrap: wrap; }
+  .mapa img {
+    width: 100%;
+    height: auto; }
+  #bg-contactos {
+    top: -120px; } }
+
+@media (max-width: 576px) {
+  #servicios-fila-2 {
+    width: 100%; }
+  #servicios-fila-1 {
+    width: 100%; }
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important;
+    text-align: center; }
+  #intro {
+    flex-wrap: wrap; } }
+
+.p-parrafo1 {
+  color: white; }
+
+.p-parrafo2 {
+  color: black; }
+
+.p-parrafo3 {
+  color: #023754; }
+
+.p-parrafo4 {
+  color: #013481; }
+
+.boton, .boton-primario {
+  border: solid 2px; }
+
+.boton-primario {
+  border-color: #e30fab;
+  background-color: #e30fab; }

@@ -1,0 +1,49 @@
+@import "variables";
+@import "body";
+@import "contacto";
+@import "contactos";
+@import "contenido";
+@import "footer";
+@import "mapa";
+@import "menu";
+@import "slider";
+@import "media";
+
+// Mapa
+
+
+$parrafos: (
+    "parrafo1": rgb(255, 255, 255),
+    "parrafo2": rgb(0, 0, 0),
+    "parrafo3": rgb(2, 55, 84),
+    "parrafo4": rgb(1, 52, 129),
+    );
+@each $parrafo, $color in $parrafos {
+    .p-#{$parrafo} {
+        color: $color;
+    }
+    
+}
+
+
+// Extend
+
+.boton { 
+    border: solid 2px;
+    
+}
+
+.boton-primario {
+    @extend .boton;
+    border-color: #e30fab;
+    background-color: #e30fab;
+}
+
+// Mixin
+@mixin tamaño {
+    height: $alto;
+    width: $ancho;
+    
+}
+
+
